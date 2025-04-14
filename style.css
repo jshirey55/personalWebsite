@@ -1,0 +1,92 @@
+.pageHeaders{
+    text-align: center;
+    font-size: 50px;
+}
+
+a{
+    padding: 0 20px 0 0;
+    font-size: 20px;
+    color: white;
+    float: right;
+}
+
+nav{
+    background-color: rgb(23, 105, 34);
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    box-shadow: 0 0 12px -2px black;
+}
+
+body{
+    background-color: rgb(162, 238, 200);
+}
+
+.name{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+}
+
+.paragraph1{
+    border: solid 2px black;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.photo1{
+    height: 450px;
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.quote{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 74px;
+}
+body{
+    margin: 10px 50px 0 50px;
+}
+
+.aboutMeHeader{
+    text-align: center;
+    font-size: 40px;
+}
+
+.gymImg{
+    height: 200px;
+    float: right;
+    margin: 0 20px 20px 20px;
+}
+h2{
+    font-size: 65px;
+}
+
+.gamingImg{
+    height: 200px;
+    float: right;
+    margin: 0 20px 20px 20px;
+}
+
+.loremIpsum{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.img2{
+    height: 150px;
+    float: right;
+}
+
+.img3{
+    height: 150px;
+    float: right;
+}
+
+.img4{
+    height: 150px;
+    float: right;
+}
