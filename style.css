@@ -4,10 +4,14 @@
 }
 
 a{
-    padding: 0 20px 0 0;
-    font-size: 20px;
+    padding: 0 40px 0 0;
+    font-size: 25px;
     color: white;
     float: right;
+}
+a:hover{
+    color: black;
+    font-size: 28px;
 }
 
 nav{
@@ -23,7 +27,7 @@ body{
 
 .name{
     display: inline-block;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     padding-right: 20px;
 }
@@ -45,7 +49,8 @@ body{
     font-size: 74px;
 }
 body{
-    margin: 10px 55px 0 55px;
+    margin: 0px 55px 0 55px;
+    padding: 20px 20px 20px 20px;
 }
 
 .aboutMeHeader{
@@ -78,15 +83,78 @@ h3{
 
 .img2{
     height: 150px;
-    float: right;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 25px 10px 10px;
 }
 
 .img3{
     height: 150px;
     float: right;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px 10px 10px 25px;
 }
 
 .img4{
     height: 150px;
     float: right;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px 10px 10px 25px;
 }
+
+.success{
+    padding-top: 175px;
+}
+
+.successImg{
+    border-radius: 50px 50px 50px 50px;
+}
+
+input{
+    border-radius: 10px 10px 10px 10px;
+    font-size: 28px;
+    max-width: 400px;
+    padding: 4px 4px;
+}
+
+label{
+    font-size: 28px;
+    margin: 20px;
+}
+
+.submitButton{
+    margin-top: 15px;
+    max-width: 130px;
+    margin-left: 20px;
+}
+
+.submitButton:hover{
+    background-color: blue;
+    color: white;
+}
+.messageBox{
+    margin: 15px;
+    padding-right: 200px;
+    height: 100px;
+}
+.contactForm{
+    width: 900px;
+    height: 700px;
+}
+.contactForm{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+.nameBox{
+    margin: 15px;
+}
+.email{
+    margin: 15px;
+}
+.contactForm{
+    box-sizing: content-box;
+}
+
+
