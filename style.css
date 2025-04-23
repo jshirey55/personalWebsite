@@ -10,7 +10,7 @@ a{
     float: right;
 }
 a:hover{
-    color: black;
+    color: black !important;
     font-size: 28px;
 }
 
